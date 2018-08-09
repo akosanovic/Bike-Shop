@@ -1,0 +1,260 @@
+/*=================================
+  Toggle Navigation 
+=================================*/
+// Disable scroll when
+@media screen and (min-width: 640px) {
+  body.sidebar-nav-active.tweak-overlay-parallax-enabled.has-parallax-images:not(.tweak-site-width-option-constrained-width) {
+    overflow: hidden !important;
+    background-color: #1694A2 !important;
+  }
+  .sidebar-nav-active .Header {
+    height: 100vh;
+  }
+  .sidebar-nav-active .Header-nav--primary {
+    display: block !important;
+  }
+}
+//Logo
+.Header-branding {
+  z-index: 10;
+  position: absolute;
+  top: 5px; 
+  padding-top: 0 !important;
+}
+
+//Header Top Bar 
+.Header-nav--secondary {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding-right: 75px !important;
+}
+.Header-nav--secondary .Header-nav-inner {
+  text-align: right;
+}
+.Header-nav--secondary a {
+  color: #000 !important;
+}
+.Header-nav--secondary a:before {
+  padding-right: 5px;
+}
+.Header-nav--secondary .Header-nav-item:nth-child(2):before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f004";
+}
+.Header-nav--secondary .Header-nav-item:nth-child(3):before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 500;
+  content: "\f0e0";
+}
+// Menu Burger Icon
+.main-menu-burger {  
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+ 
+  height: 100%;
+  width: 60px;
+  
+  cursor: pointer;  
+  text-align: center;
+  line-height: 66px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #1694A2; 
+}
+.main-menu-burger i {
+  color: white !important;
+}
+
+// Main Sidebar Nav
+.Header-nav--primary {
+  display: none;
+  position: absolute;
+  top: 4rem;
+  right: 0;
+  bottom: 0;
+  background-color: #1694A2;
+}
+.Header-nav--primary a{
+  display: block;
+  text-align: left;
+}
+
+
+/*=================================
+	Home Page Overlay
+=================================*/
+.Index-page.Index-page--has-image:first-child {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+#location .Index-page-content {
+  padding: 0 !important;
+}
+.sqs-block-instagram {
+  padding: 0 !important;
+}
+.sqs-block-instagram .slide:nth-last-child(-n + 5) .margin-wrapper {
+  margin-bottom: 0 !important; 
+}
+
+
+
+
+//PROGRAMS FIRST IMAGE//
+#programs .sqs-gallery.sqs-gallery-design-grid .slide:first-child:hover img {
+  position: relative;
+  opacity: 0;
+  z-index: -100;
+}
+#programs .sqs-gallery.sqs-gallery-design-grid .slide:first-child:hover .image-slide-anchor:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0px;
+  bottom: 7px;
+  background: url(https://static1.squarespace.com/static/5b4ff04a697a98b672bf58fb/t/5b60d05daa4a997c9e5270a6/1533071453196/DAILYDROP.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/*PROGRAMS SECOND IMAGE*/
+
+#programs .sqs-gallery.sqs-gallery-design-grid .slide:nth-child(2):hover img {
+  position: relative;
+  opacity: 0;
+  z-index: -100;
+}
+#programs .sqs-gallery.sqs-gallery-design-grid .slide:nth-child(2):hover .image-slide-anchor:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 7px;
+  background: url(https://static1.squarespace.com/static/5b4ff04a697a98b672bf58fb/t/5b60d1a370a6ad79d56dcb2b/1533071779234/MENTORING.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*PROGRAMS THIRD IMAGE*/
+
+#programs .sqs-gallery.sqs-gallery-design-grid .slide:nth-child(3):hover img {
+  position: relative;
+  opacity: 0;
+  z-index: -100;
+}
+#programs .sqs-gallery.sqs-gallery-design-grid .slide:nth-child(3):hover .image-slide-anchor:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 7px;
+  background: url(https://static1.squarespace.com/static/5b4ff04a697a98b672bf58fb/t/5b60d33a70a6ad79d56e1ff2/1533072186269/JOBREADY.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*PROGRAMS FOURTH IMAGE*/
+
+#programs .sqs-gallery.sqs-gallery-design-grid .slide:nth-child(4):hover img {
+  position: relative;
+  opacity: 0;
+  z-index: -100;
+}
+#programs .sqs-gallery.sqs-gallery-design-grid .slide:nth-child(4):hover .image-slide-anchor:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 7px;
+  background: url(https://static1.squarespace.com/static/5b4ff04a697a98b672bf58fb/t/5b5fc6f12b6a28ea73c2b736/1533003506200/LEADERSHIP.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*PROGRAMS FIFTH IMAGE*/
+
+#programs .sqs-gallery.sqs-gallery-design-grid .slide:nth-child(5):hover img {
+  position: relative;
+  opacity: 0;
+  z-index: -100;
+}
+#programs .sqs-gallery.sqs-gallery-design-grid .slide:nth-child(5):hover .image-slide-anchor:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 7px;
+  background: url(https://static1.squarespace.com/static/5b4ff04a697a98b672bf58fb/t/5b5fc709352f53c1e4cb7351/1533003529477/ASPIRATIONS.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*PROGRAMS SIXTH IMAGE*/
+
+#programs .sqs-gallery.sqs-gallery-design-grid .slide:nth-child(6):hover img {
+  position: relative;
+  opacity: 0;
+  z-index: -100;
+}
+#programs .sqs-gallery.sqs-gallery-design-grid .slide:nth-child(6):hover .image-slide-anchor:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 7px;
+  background: url(https://static1.squarespace.com/static/5b4ff04a697a98b672bf58fb/t/5b60d289aa4a997c9e52eb5b/1533072009882/EDUCATION.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/*PROGRAMS SEVENTH IMAGE*/
+
+#programs .sqs-gallery.sqs-gallery-design-grid .slide:nth-child(7):hover img {
+  position: relative;
+  opacity: 0;
+  z-index: -100;
+}
+#programs .sqs-gallery.sqs-gallery-design-grid .slide:nth-child(7):hover .image-slide-anchor:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 7px;
+  background: url(https://static1.squarespace.com/static/5b4ff04a697a98b672bf58fb/t/5b5fc9d56d2a73a2817843d2/1533004246078/SUMMER.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*PROGRAMS SEVENTH IMAGE*/
+
+#programs .sqs-gallery.sqs-gallery-design-grid .slide:nth-child(8):hover img {
+  position: relative;
+  opacity: 0;
+  z-index: -100;
+}
+#programs .sqs-gallery.sqs-gallery-design-grid .slide:nth-child(8):hover .image-slide-anchor:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 7px;
+  background: url(https://static1.squarespace.com/static/5b4ff04a697a98b672bf58fb/t/5b5fc84b03ce64a12df26ff2/1533003851273/OUTREACH.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
